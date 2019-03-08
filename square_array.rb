@@ -1,4 +1,6 @@
 def square_array(array)
   new_array = array
-  new_array.each_index { |x| x** }
+  new_array.each do |x|
+    return x**
+  end
 end
